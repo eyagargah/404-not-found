@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@300;400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Space+Mono:wght@700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
@@ -6,19 +8,54 @@
 }
 
 body {
-  font-family: "Poppins", sans-serif;
+    max-width: 1440px;
+    margin: 0 auto;
 }
 
 main {
     max-width: 80%;
+    margin: 0 auto;
 }
 
 h3 {
-    font-weight: 500;
+    font-family: 'Inconsolata', monospace;
+    font-weight: 700;
+    text-transform: uppercase;
+    padding: 20px;
+    font-size: 24px;
+    color:hsla(0, 0%, 20%, 1);
 }
 
-img {
-    width: 300px;
-    height: auto;
-    
+.content{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
+
+
+img {
+    width: 550px;
+    height: 450px;
+}
+
+.text-content h1 {
+    font-family: 'Space Mono', monospace;
+    font-size: 30px;
+}
+
+.text-content p {
+    margin-top: 30px;
+    font-size: 20px;
+    font-family: 'Space Mono', monospace;
+    font-weight: 400;
+}
+
+button {
+    margin-top: 30px;
+    background-color:  #333333;
+    font-family: 'Space Mono', monospace;
+    color: #fff;
+    font-size: 14px;
+}
+
